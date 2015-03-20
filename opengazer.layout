@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Alert.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="321" topLine="3" />
+	</File>
+	<File name="Alert.h" open="0" top="0" tabpos="0">
+		<Cursor position="1690" topLine="48" />
+	</File>
+	<File name="Calibrator.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3520" topLine="133" />
+	</File>
+	<File name="Calibrator.h" open="0" top="0" tabpos="4">
+		<Cursor position="988" topLine="30" />
+	</File>
+	<File name="Containers.h" open="0" top="0" tabpos="0">
+		<Cursor position="148" topLine="3" />
+	</File>
+	<File name="EyeExtractor.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="737" topLine="23" />
+	</File>
+	<File name="FaceDetector.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="201" topLine="0" />
+	</File>
+	<File name="FeatureDetector.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="FeatureDetector.h" open="0" top="0" tabpos="0">
+		<Cursor position="33" topLine="0" />
+	</File>
+	<File name="GazeArea.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="464" topLine="44" />
+	</File>
+	<File name="GazeArea.h" open="0" top="0" tabpos="9">
+		<Cursor position="295" topLine="2" />
+	</File>
+	<File name="GazeTracker.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="6777" topLine="212" />
+	</File>
+	<File name="GazeTracker.h" open="1" top="0" tabpos="6">
+		<Cursor position="188" topLine="0" />
+	</File>
+	<File name="GazeTrackerGtk.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="564" topLine="8" />
+	</File>
+	<File name="GazeTrackerGtk.h" open="0" top="0" tabpos="0">
+		<Cursor position="434" topLine="1" />
+	</File>
+	<File name="Global.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="417" topLine="0" />
+	</File>
+	<File name="Global.h" open="0" top="0" tabpos="6">
+		<Cursor position="540" topLine="14" />
+	</File>
+	<File name="GraphicalPointer.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="914" topLine="0" />
+	</File>
+	<File name="GraphicalPointer.h" open="0" top="0" tabpos="0">
+		<Cursor position="182" topLine="21" />
+	</File>
+	<File name="HeadTracker.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4076" topLine="133" />
+	</File>
+	<File name="HeadTracker.h" open="0" top="0" tabpos="0">
+		<Cursor position="138" topLine="9" />
+	</File>
+	<File name="LeastSquares.h" open="0" top="0" tabpos="11">
+		<Cursor position="383" topLine="12" />
+	</File>
+	<File name="MainGazeTracker.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="3495" topLine="132" />
+	</File>
+	<File name="MainGazeTracker.h" open="0" top="0" tabpos="5">
+		<Cursor position="456" topLine="15" />
+	</File>
+	<File name="OutputMethods.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="1181" topLine="41" />
+	</File>
+	<File name="OutputMethods.h" open="0" top="0" tabpos="6">
+		<Cursor position="47" topLine="0" />
+	</File>
+	<File name="PointTracker.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3551" topLine="138" />
+	</File>
+	<File name="PointTracker.h" open="0" top="0" tabpos="0">
+		<Cursor position="260" topLine="8" />
+	</File>
+	<File name="PupilTracker.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="12829" topLine="348" />
+	</File>
+	<File name="TrackingSystem.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1809" topLine="25" />
+	</File>
+	<File name="TrackingSystem.h" open="0" top="0" tabpos="7">
+		<Cursor position="485" topLine="8" />
+	</File>
+	<File name="opengazer.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="387" topLine="3" />
+	</File>
+	<File name="svm.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="svm.h" open="0" top="0" tabpos="6">
+		<Cursor position="176" topLine="17" />
+	</File>
+	<File name="utils.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="241" topLine="0" />
+	</File>
+	<File name="utils.h" open="0" top="0" tabpos="3">
+		<Cursor position="4304" topLine="124" />
+	</File>
+</CodeBlocks_layout_file>

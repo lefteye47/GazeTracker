@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="opengazer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/opengazer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="/home/hally/Eyetracker/Eyetracker.cbp;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add option="`pkg-config cairomm-1.0 opencv gtkmm-2.4 --cflags`" />
+					<Add option="`pkg-config --cflags opencv`" />
+					<Add directory="/usr/local/include/core" />
+					<Add directory="/usr/local/include/contrib/oxl" />
+					<Add directory="/usr/include/opencv" />
+					<Add directory="/usr/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/home/hally/opengazer/" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config cairomm-1.0 opencv gtkmm-2.4 --libs`" />
+					<Add option="`pkg-config --libs opencv`" />
+					<Add library="m" />
+					<Add library="dl" />
+					<Add library="mvl" />
+					<Add library="gthread-2.0" />
+					<Add library="opencv_imgproc" />
+					<Add library="tbb" />
+					<Add directory="/usr/local/lib" />
+					<Add directory="/usr/include/opencv" />
+					<Add directory="/usr/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/opengazer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-g" />
+			<Add option="`pkg-config --cflags cairomm-1.0 opencv gtkmm-2.4`" />
+			<Add directory="/usr/local/include/core" />
+			<Add directory="/usr/local/include/vcl" />
+			<Add directory="/usr/local/include/contrib/oxl" />
+			<Add directory="/usr/local/include/vxl/core" />
+			<Add directory="/usr/local/include/vxl/vcl" />
+			<Add directory="/usr/local/include/vxl/contrib/oxl" />
+			<Add directory="/usr/include" />
+			<Add directory="/usr/local/include" />
+			<Add directory="/home/hally/opengazer/" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs cairomm-1.0 opencv gtkmm-2.4 `" />
+			<Add library="m" />
+			<Add library="dl" />
+			<Add library="vnl" />
+			<Add library="mvl" />
+			<Add library="vnl_algo" />
+			<Add library="vgl" />
+			<Add library="gthread-2.0" />
+			<Add library="tbb" />
+			<Add directory="/usr/local/lib" />
+			<Add directory="/usr/lib" />
+		</Linker>
+		<Unit filename="Alert.cpp" />
+		<Unit filename="Alert.h" />
+		<Unit filename="BlinkDetector.cpp" />
+		<Unit filename="BlinkDetector.h" />
+		<Unit filename="Calibrator.cpp" />
+		<Unit filename="Calibrator.h" />
+		<Unit filename="Containers.cpp" />
+		<Unit filename="Containers.h" />
+		<Unit filename="EyeExtractor.cpp" />
+		<Unit filename="EyeExtractor.h" />
+		<Unit filename="FaceDetector.cpp" />
+		<Unit filename="FaceDetector.h" />
+		<Unit filename="FeatureDetector.cpp" />
+		<Unit filename="FeatureDetector.h" />
+		<Unit filename="GazeArea.cpp" />
+		<Unit filename="GazeArea.h" />
+		<Unit filename="GazeTracker.cpp" />
+		<Unit filename="GazeTracker.h" />
+		<Unit filename="GazeTrackerGtk.cpp" />
+		<Unit filename="GazeTrackerGtk.h" />
+		<Unit filename="Global.cpp" />
+		<Unit filename="Global.h" />
+		<Unit filename="GraphicalPointer.cpp" />
+		<Unit filename="GraphicalPointer.h" />
+		<Unit filename="GtkStore.cpp" />
+		<Unit filename="GtkStore.h" />
+		<Unit filename="HeadTracker.cpp" />
+		<Unit filename="HeadTracker.h" />
+		<Unit filename="LeastSquares.h" />
+		<Unit filename="MainGazeTracker.cpp" />
+		<Unit filename="MainGazeTracker.h" />
+		<Unit filename="OutputMethods.cpp" />
+		<Unit filename="OutputMethods.h" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="PointTracker.cpp" />
+		<Unit filename="PointTracker.h" />
+		<Unit filename="PupilTracker.cpp" />
+		<Unit filename="PupilTracker.h" />
+		<Unit filename="TrackingSystem.cpp" />
+		<Unit filename="TrackingSystem.h" />
+		<Unit filename="cvx.cpp" />
+		<Unit filename="cvx.h" />
+		<Unit filename="opengazer.cpp" />
+		<Unit filename="svm.cpp" />
+		<Unit filename="svm.h" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
