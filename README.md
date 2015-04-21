@@ -1,5 +1,5 @@
 # GazeTracker
-1.  Wear the glasses and open GazeTracker by executing "./opengazer"
+1.  Wear the glasses and open GazeTracker by executing "./opengazer" or opengazer.cbp
 
 2.  Make sure the eye image is in the middle of video and the pupil(pink circle) is well detected
 
