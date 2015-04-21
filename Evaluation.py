@@ -9,8 +9,17 @@ totalframe=25  #The number of calibration points used
 width=1366     #The screen width
 height=768     #The screen height
 
+files=open('svm testing')
+l=files.readlines()
+fi=open('SVM','w')
+#Adjust the range to other if needed
+for i in range(20,1000,40):#This is 25 calpoints 
+    fi.write(l[i])
+
+fi.close()
+
 a=open('SVM')   #The the output eye coordinate from the GazeTracker 
-b=open('calpoints')#The ground Truth of the calpoints
+b=open('calpoints.txt')#The ground Truth of the calpoints
 l=a.readlines()
 line=b.readlines()
 f=open('combine','w')
